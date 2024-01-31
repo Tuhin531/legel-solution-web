@@ -101,3 +101,18 @@
     flex-shrink: 0;
 
 }
+.justice-footer-header{
+color: #FFF;
+font-family: "EB Garamond";
+font-size: 24px;
+font-weight: 800;
+
+}
+.justice-footer-description{
+color: var(--Dark-05, #CFCFCF);
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; 
+}
