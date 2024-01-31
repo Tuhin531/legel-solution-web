@@ -30,7 +30,7 @@
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
                     <img class="justic-primary" src="images/logo2.png" alt="">
-                    
+
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
                         aria-label="Toggle navigation">
@@ -46,121 +46,183 @@
                                 <a class="nav-link " href="#">Services <i class="fa-solid fa-chevron-right"></i></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link " aria-current="page" href="#">Cases <i class="fa-solid fa-chevron-right"></i></a>
+                                <a class="nav-link " aria-current="page" href="#">Cases <i
+                                        class="fa-solid fa-chevron-right"></i></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link " aria-current="page" href="#">Blog <i class="fa-solid fa-chevron-right"></i></a>
+                                <a class="nav-link " aria-current="page" href="#">Blog <i
+                                        class="fa-solid fa-chevron-right"></i></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#">Contact Us <i class="fa-solid fa-chevron-right"></i></a>
+                                <a class="nav-link" aria-current="page" href="#">Contact Us <i
+                                        class="fa-solid fa-chevron-right"></i></a>
                             </li>
                         </ul>
-                        <button class="btn btn-outline-success justice-nav-btn mt-2 mb-2 pt-2 pb-2" type="submit">Free Consultation</button>
+
+                        <!-- <button class="btn btn-outline-success justice-nav-btn mt-2 mb-2 pt-2 pb-2" type="submit">Free Consultation  
+                        </button> -->
+
+                        <!-- modal start -->
+                        <button type="button" class="btn btn-outline-success justice-nav-btn mt-2 mb-2 pt-2 pb-2 "
+                            data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">Free
+                            Consultation</button>
+
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">New message</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form>
+                                            <div class="mb-3">
+                                                <label for="recipient-name" class="col-form-label">Recipient:</label>
+                                                <input type="text" class="form-control" id="recipient-name">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="message-text" class="col-form-label">Message:</label>
+                                                <textarea class="form-control" id="message-text"></textarea>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Send message</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- modal end -->
                     </div>
                 </div>
             </nav>
 
         </section>
-  <!-- Banner section -->
+        <!-- Banner section -->
         <section class="container">
             <div class="row">
                 <div class="col">
 
-              <div class="card text-bg-dark">
-                <img src="images/banner.png" class="card-img img-flid" alt="...">
-                <div class="card-img-overlay d-none d-sm-block ">
-                  <h1 class="card-title justice-banner-header mt-5">We Provide Effective 
-                    <br> Legal Solutions</h1>
+                    <div class="card text-bg-dark">
+                        <img src="images/banner.png" class="card-img img-flid" alt="...">
+                        <div class="card-img-overlay d-none d-sm-block ">
+                            <h1 class="card-title justice-banner-header mt-5">We Provide Effective
+                                <br> Legal Solutions
+                            </h1>
 
-                  <p class="card-text text-center mt-4 justice-description ">There are many variations of passages of Lorem Ipsum available, but the majority <br> have suffered alteration in some form, by injected humour.</p>
-                   <div class="d-flex justify-content-center border-danger rounded gap-2 mt-4">
-                    <input class="px-4 rounded border-0 " type="text" id="fname" name="fname" placeholder="Search your services">
-                    </input>
-                    <button type="button" class="btn btn-outline-secondary justic-primary justice-nav-btn ">Search</button></div>
-              </div>
-            </div> 
-             
-            
+                            <p class="card-text text-center mt-4 justice-description ">There are many variations of
+                                passages of Lorem Ipsum available, but the majority <br> have suffered alteration in
+                                some form, by injected humour.</p>
+                            <div class="d-flex justify-content-center border-danger rounded gap-2 mt-4">
+                                <input class="px-4 rounded border-0 " type="text" id="fname" name="fname"
+                                    placeholder="Search your services">
+                                </input>
+                                <button type="button"
+                                    class="btn btn-outline-secondary justic-primary justice-nav-btn ">Search</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
             </div>
-        </div>
         </section>
     </header>
     <main>
-    <!-- Practice area section -->
+        <!-- Practice area section -->
 
-    <section class="container mt-5">
-        <div class="row">
-            <div class="col">
-                 <h1 class="justice-primary-header text-center">The Legal Practice Area</h1>
-                 <p class="justice-primary-description text-center">There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected humour.</p>
+        <section class="container mt-5">
+            <div class="row">
+                <div class="col">
+                    <h1 class="justice-primary-header text-center">The Legal Practice Area</h1>
+                    <p class="justice-primary-description text-center">There are many variations of passages of Lorem
+                        Ipsum available, but the majority have <br> suffered alteration in some form, by injected
+                        humour.</p>
 
 
-                 <div class="row row-cols-1 row-cols-md-3  justify-content-center mt-4 mb-4 g-0 ">
-                    <div class="col">
-                      <div class="card border-0 h-100 text-center px-4 py-4 pb-4">
-                        <img src="images/business.png" class=" mx-auto w-25 mt-4 " alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title justice-card-header ">Business Law</h5>
-                          <p class="card-text justice-primary-description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-                          <img src="images/Frame.png" alt="">
+                    <div class="row row-cols-1 row-cols-md-3  justify-content-center mt-4 mb-4 g-0 ">
+                        <div class="col">
+                            <div class="card  border-0 h-100 text-center px-4 py-4 pb-4">
+                                <img src="images/business.png" class=" mx-auto w-25 mt-4 " alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title justice-card-header ">Business Law</h5>
+                                    <p class="card-text justice-primary-description">There are many variations of
+                                        passages of Lorem Ipsum available, but the majority have suffered alteration in
+                                        some form, by injected humour.</p>
+                                    <img src="images/Frame.png" alt="">
+                                </div>
+                            </div>
                         </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                        <div class="card border-bottom-0 rounded-0 h-100 text-center px-4 py-4 pb-4">
-                            <img src="images/criminal.png" class=" mx-auto w-25 mt-4 " alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title justice-card-header ">Criminal Law</h5>
-                              <p class="card-text justice-primary-description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-                              <img src="images/Frame.png" alt="">
+                        <div class="col">
+                            <div class="card border-bottom-0 rounded-0 h-100 text-center px-4 py-4 pb-4">
+                                <img src="images/criminal.png" class=" mx-auto w-25 mt-4 " alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title justice-card-header ">Criminal Law</h5>
+                                    <p class="card-text justice-primary-description">There are many variations of
+                                        passages of Lorem Ipsum available, but the majority have suffered alteration in
+                                        some form, by injected humour.</p>
+                                    <img src="images/Frame.png" alt="">
+                                </div>
                             </div>
-                          </div>
-                    </div>
-                    <div class="col">
-                        <div class="card border-0 h-100 text-center px-4 py-4 pb-4">
-                            <img src="images/child.png" class=" mx-auto w-25 mt-4 " alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title justice-card-header ">Child Support</h5>
-                              <p class="card-text justice-primary-description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-                              <img src="images/Frame.png" alt="">
-                            </div>
-                          </div>
-                    </div>
-                    <div class="col">
-                        <div class="card border-0 border-top rounded-0 h-100 text-center px-4 py-4 pb-4 ">
-                            <img src="images/education.png" class=" mx-auto w-25 mt-4 " alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title justice-card-header ">Education Law</h5>
-                              <p class="card-text justice-primary-description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-                              <img src="images/Frame.png" alt="">
-                            </div>
-                          </div>
-                    </div>
-                    <div class="col">
-                        <div class="card  rounded-0 h-100 text-center px-4 py-4 pb-4">
-                            <img src="images/divorce.png" class=" mx-auto w-25 mt-4 " alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title justice-card-header ">Divorce Law</h5>
-                              <p class="card-text justice-primary-description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-                              <img src="images/Frame.png" alt="">
-                            </div>
-                          </div>
-                      </div>
-                      <div class="col">
-                        <div class="card  rounded-0 border-top border-0  h-100 text-center px-4 py-4 pb-4">
-                        <img src="images/tax.png" class=" mx-auto w-25 mt-4 " alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title justice-card-header ">Tax Law</h5>
-                          <p class="card-text justice-primary-description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-                          <img src="images/Frame.png" alt="">
                         </div>
-                      </div>
-                      </div>
-                  </div>
+                        <div class="col">
+                            <div class="card border-0 h-100 text-center px-4 py-4 pb-4">
+                                <img src="images/child.png" class=" mx-auto w-25 mt-4 " alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title justice-card-header ">Child Support</h5>
+                                    <p class="card-text justice-primary-description">There are many variations of
+                                        passages of Lorem Ipsum available, but the majority have suffered alteration in
+                                        some form, by injected humour.</p>
+                                    <img src="images/Frame.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card border-0 border-top rounded-0 h-100 text-center px-4 py-4 pb-4 ">
+                                <img src="images/education.png" class=" mx-auto w-25 mt-4 " alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title justice-card-header ">Education Law</h5>
+                                    <p class="card-text justice-primary-description">There are many variations of
+                                        passages of Lorem Ipsum available, but the majority have suffered alteration in
+                                        some form, by injected humour.</p>
+                                    <img src="images/Frame.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card  rounded-0 h-100 text-center px-4 py-4 pb-4">
+                                <img src="images/divorce.png" class=" mx-auto w-25 mt-4 " alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title justice-card-header ">Divorce Law</h5>
+                                    <p class="card-text justice-primary-description">There are many variations of
+                                        passages of Lorem Ipsum available, but the majority have suffered alteration in
+                                        some form, by injected humour.</p>
+                                    <img src="images/Frame.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card  rounded-0 border-top border-0  h-100 text-center px-4 py-4 pb-4">
+                                <img src="images/tax.png" class=" mx-auto w-25 mt-4 " alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title justice-card-header ">Tax Law</h5>
+                                    <p class="card-text justice-primary-description">There are many variations of
+                                        passages of Lorem Ipsum available, but the majority have suffered alteration in
+                                        some form, by injected humour.</p>
+                                    <img src="images/Frame.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
 
-    </section>
+        </section>
+
 
     </main>
 
