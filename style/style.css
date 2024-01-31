@@ -1,0 +1,73 @@
+.body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+}
+.justice-primary{
+    color:#B68C5A;
+}
+.justice-nav-btn{
+border-radius: 5px;
+background: #B68C5A;
+border: 0;
+color: #FFF;
+font-family: Poppins;
+font-size: 18px;
+font-weight: 600;
+}
+.justice-banner-header{
+color: #FFF;
+text-align: center;
+font-family: "EB Garamond";
+font-size: 72px;
+font-weight: 800;
+
+}
+.justice-description{
+color: #E7E7E7;
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+
+}
+.justice-primary-description{
+    color: #707070;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+}
+.justice-primary-header{
+color: var(--Dark-02, #414040);
+font-family: "EB Garamond";
+font-size: 40px;
+font-weight: 800;
+
+}
+.justice-card-header{
+    color: var(--Dark-02, #414040);
+    text-align: center;
+    font-family: "EB Garamond";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.justice-person-img{
+    margin-bottom: 10px;
+    width: 70px;
+    height: 70px;
+    flex-shrink: 0;
+    border-radius: 70px;
+    border: 3px solid #FFF;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.justice-slide-header{
+    color: #FFF;
+    text-align: center;
+    font-family: "EB Garamond";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    }
+
